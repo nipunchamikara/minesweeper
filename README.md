@@ -1,5 +1,6 @@
 # Minesweeper
 Remake of Minesweeper using Lua with LÖVE as it's framework
+
 More about the [game](https://en.wikipedia.org/wiki/Minesweeper_(video_game))
 
 ## Getting Started
