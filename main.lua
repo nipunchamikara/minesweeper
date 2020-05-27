@@ -2,6 +2,7 @@
     Minesweeper remake using Lua with LÖVE as it's framework
 ]]
 
+-- can be changed between 720 and 360
 WINDOW_SIDE = 720
 
 -- https://github.com/vrld/hump

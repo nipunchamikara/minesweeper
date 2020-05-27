@@ -10,9 +10,14 @@ function Grid:init(rows)
     self.width = (WINDOW_SIDE * 2 / 3) / rows
 
     -- spritesheet which stores the graphics
-    self.spritesheet = love.graphics.newImage('graphics/mine.png')
-    self.tileWidth = 60
-    self.tileHeight = 60
+    if WINDOW_SIDE == 720 then
+        dir = 'graphics/mine_large.png'
+    elseif WINDOW_SIDE == 360 then
+        dir = 'graphics/mine_small.png'
+    end
+    self.spritesheet = love.graphics.newImage(dir)
+    self.tileWidth = self.width
+    self.tileHeight = self.width
     self.sprites = generateQuads(self.spritesheet, self.tileWidth, self.tileHeight)
 
     --[[
