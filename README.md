@@ -24,7 +24,7 @@ Note: the directory must contain the **main.lua** file
 
 ## Authors
 
-* **Nipun Chamikara Weerasiri** - *Initial work* - [theharmlesscreeper](https://github.com/theharmlesscreeper)
+* **Nipun Chamikara Weerasiri** - *Initial work* - [nipunchamikara](https://github.com/nipunchamikara)
 
 ## Acknowledgments
 * Matthias Richter, [Class.lua](https://github.com/vrld/hump)
